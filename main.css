@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    height: 100vh;
+    background-image: url('image/bg image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px; /* Add this line to move the entire content down */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.buttonw {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buttonw:hover {
+    background-color: #112a44;
+    color:antiquewhite;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wel {
+    color: white;
+    font-size: 144px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.am {
+    margin-bottom: 20px;
+}
+
+.cont {
+    background-color: #0f3342;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    margin-top:10px;
+    height: 24vh;
+    width: auto;
+
+}
+
+.container {
+
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonw {
+    width: 300px;
+    height: 60px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.buttons {
+    width: 420px;
+    margin: 60px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: transparent;
+    border-width: 20px;
+    border-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 64px;
+    background: linear-gradient(120deg, #3B5998, #FFFFFF);
+}
+
+.buttonb {
+    margin-top: 50px;
+    color: white;
+    background-color: #5A5A5A;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 32px;
+}
+
+.buttoni {
+    width: 420px;
+    margin: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: transparent;
+    border-width: 20px;
+    border-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 64px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
